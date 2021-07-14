@@ -1,0 +1,21 @@
+<body bgcolor="green">
+<h1>welcome - My App demo</h1>
+<marquee>django project - my app demo on jul07 </marquee>
+
+
+<form action="add" method="POST" >
+
+    {% csrf_token %}
+    <div>Enter Your name    :<input type="text" name="num1"><br></div>
+    <div>Enter your gender  :<input type="text" name="num2"><br></div>
+    <div>Enter your address :<input type="text" name="addr"><br></div>
+
+
+    </div>
+    <input type="submit">
+</form>
+
+
+
+
+
